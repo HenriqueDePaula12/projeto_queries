@@ -28,13 +28,23 @@ Fala Pessoal! Dessa vez eu separei 10 exercicíos gerados através do DeepSeek p
 
 ### Queries Resolvidas
 
+#### Exercício 1
 ![Exercício_1](prints/Ex1.png)
+#### Exercício 2
 ![Exercício_2](prints/Ex2.png)
+#### Exercício 3
 ![Exercício_3](prints/Ex3.png)
+#### Exercício 4
 ![Exercício_4](prints/Ex4.png)
+#### Exercício 5
 ![Exercício_5](prints/Ex5.png)
+#### Exercício 6
 ![Exercício_6](prints/Ex6.png)
+#### Exercício 7
 ![Exercício_7](prints/Ex7.png)
+#### Exercício 8
 ![Exercício_8](prints/Ex8.png)
+#### Exercício 9
 ![Exercício_9](prints/Ex9.png)
+#### Exercício 10
 ![Exercício_10](prints/Ex10.png)
