@@ -1,6 +1,5 @@
 from sqlalchemy import create_engine
 import pandas as pd
-import os
 
 ## Configurações do banco de dados PostgreSQL
 engine = create_engine('postgresql://postgres:changeme@localhost:5432/postgres')

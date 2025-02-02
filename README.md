@@ -1,6 +1,37 @@
 # 📚 Exercícios de SQL: CTEs
 Fala Pessoal! Dessa vez eu separei 10 exercicíos gerados através do DeepSeek para serem resolvidos com queries mais complexas(CTEs), aqui está.
 
+## CREATE_TABLES
+
+#### [create_tables.py](project_queries/create_tables.py)
+
+Este é um script Python simples que utiliza SQLAlchemy para se conectar ao banco de dados. Em seguida, criamos uma lista de tuplas com nossos arquivos CSV e, por fim, iteramos sobre ele para carregar os arquivos no banco como tabelas.
+
+
+```python
+from sqlalchemy import create_engine
+import pandas as pd
+
+## Configurações do banco de dados PostgreSQL
+engine = create_engine('postgresql://postgres:changeme@localhost:5432/postgres')
+
+files_and_tables = [
+    ('datasets/AdventureWorks_Customers.csv', 'customers'),
+    ('datasets/AdventureWorks_Product_Categories.csv', 'products_categories'),
+    ('datasets/AdventureWorks_Product_Subcategories.csv', 'products_sub_categories'),
+    ('datasets/AdventureWorks_Products.csv', 'products'),
+    ('datasets/AdventureWorks_Returns.csv', 'returns'),
+    ('datasets/AdventureWorks_Sales.csv', 'sales'),
+    ('datasets/AdventureWorks_Territories.csv', 'territories')
+]
+
+for file, table in files_and_tables:
+    df = pd.read_csv(file, encoding='ISO-8859-1') 
+    df.columns = df.columns.str.lower()
+    df.to_sql(table, engine, if_exists='replace', index=False)
+    print(f"Dados de {file} carregados na tabela {table}.")
+```
+
 ## Enunciados
 
 #### 
