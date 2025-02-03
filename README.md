@@ -1,5 +1,5 @@
 # 📚 Exercícios de SQL: CTEs
-Fala Pessoal! Dessa vez eu separei 10 exercicíos gerados através do DeepSeek para serem resolvidos com queries mais complexas(CTEs), aqui está.
+Fala, pessoal! Dessa vez eu separei 10 exercicíos para quem está começando e quer mexer com dados, esses desafios podem ser resolvidos com queries mais avançadas, como CTEs, aqui está.
 
 ## CREATE_TABLES
 
@@ -31,6 +31,11 @@ for file, table in files_and_tables:
     df.to_sql(table, engine, if_exists='replace', index=False)
     print(f"Dados de {file} carregados na tabela {table}.")
 ```
+
+## Conjunto de Dados - AdventureWorks
+
+#### Nosso conjunto de dados fictício é usado para simulações de cenários empresariais. Ele tem informações sobre clientes, produtos, vendas, devoluções e territórios, sendo uma boa opção para quem deseja aprender sobre análise de dados, modelagem relacional e consultas SQL.
+
 
 ## Enunciados
 
