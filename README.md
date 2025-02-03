@@ -1,5 +1,5 @@
 # 📚 Exercícios de SQL: CTEs
-Fala, pessoal! Dessa vez eu separei 10 exercicíos para quem está começando e quer mexer com dados, esses desafios podem ser resolvidos com queries mais avançadas, como CTEs, aqui está.
+Fala, pessoal! Dessa vez eu separei 9 exercicíos para quem está começando e quer mexer com dados, esses desafios podem ser resolvidos com queries mais avançadas, como CTEs, aqui está.
 
 ## CREATE_TABLES
 
@@ -51,15 +51,13 @@ for file, table in files_and_tables:
 
 5 - Qual é o número total de devoluções por mês no ano de 2015, e qual foi o mês com o maior número de devoluções?
 
-6 - Quais são os clientes que realizaram compras em mais de um território (TerritoryKey), e qual é o número total de territórios distintos em que cada um comprou?
+6 - Qual é o produto com o maior custo (ProductCost) que foi vendido para clientes com nível de educação "Bachelors" e que possuem renda anual superior a $70,000?
 
-7 - Qual é o produto com o maior custo (ProductCost) que foi vendido para clientes com nível de educação "Bachelors" e que possuem renda anual superior a $70,000?
+7 - Qual é a porcentagem de clientes que são solteiros (MaritalStatus = 'S') e que compraram produtos da subcategoria "Mountain Bikes"?
 
-8 - Qual é a porcentagem de clientes que são solteiros (MaritalStatus = 'S') e que compraram produtos da subcategoria "Mountain Bikes"?
+8 - Quais são os 3 produtos com o menor preço (ProductPrice) que foram devolvidos mais de uma vez?
 
-9 - Quais são os 3 produtos com o menor preço (ProductPrice) que foram devolvidos mais de uma vez?
-
-10 - Qual é a diferença média entre o preço de venda (ProductPrice) e o custo (ProductCost) dos produtos vendidos para clientes que têm mais de 3 filhos (TotalChildren > 3)?
+9 - Qual é a diferença média entre o preço de venda (ProductPrice) e o custo (ProductCost) dos produtos vendidos para clientes que têm mais de 3 filhos (TotalChildren > 3)?
 ```
 
 ### Queries Resolvidas
@@ -82,5 +80,3 @@ for file, table in files_and_tables:
 ![Exercício_8](prints/Ex8.png)
 #### Exercício 9
 ![Exercício_9](prints/Ex9.png)
-#### Exercício 10
-![Exercício_10](prints/Ex10.png)
